@@ -6,7 +6,7 @@ node {
  def scannerHome = tool 'SonarQube Scanner';
  withSonarQubeEnv() {
  sh "${scannerHome}/bin/sonar-scanner -Dsonar.java.binaries=. -Dsonar.projectKey=prj1 -
-Dsonar.login=sqa_bc7c2a2c4f99296394a9e7853fa31c7a58e6482c"
+Dsonar.login=sqa_337409111aa6486386626d098596140bf8bbdd2d"
  }
  }
 }
